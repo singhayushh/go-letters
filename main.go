@@ -1,9 +1,16 @@
 package main
 
-import "Goletters/backend"
+import (
+	"Goletters/backend"
+	"os"
+
+	"github.com/joho/godotenv"
+)
 
 var server = backend.Server{}
 
 func main() {
-	server.Run("8080")
+	godotenv.Load()
+	Port := os.Getenv("PORT")
+	server.Run(Port)
 }
