@@ -21,7 +21,6 @@ html, body {
 }
 
 .logo {
-    position: fixed;
     top: 30px;
     width: 100%;
     text-align: center;
@@ -67,6 +66,10 @@ form input, .info, button {
     color: #333;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
+}
+
+button {
+  margin: 20px 30px;
 }
 
 form input {
