@@ -19,7 +19,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0px;
+    padding: 40px 0px !important;
 }
 
 .logo {
@@ -30,7 +30,7 @@ html, body {
     text-transform: uppercase;
 }
 
-.info {
+.about {
     color: #7741ffde;
     text-align: center;
     max-width: 500px;
